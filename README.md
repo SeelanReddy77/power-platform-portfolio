@@ -1,9 +1,9 @@
-mkdir power-platform-portfolio
-cd power-platform-portfolio
-git init
-echo "# Seelan Reddy — Power Platform Portfolio" > README.md
-git add .
-git commit -m "chore: init portfolio repo"
-git branch -M main
-git remote add origin https://github.com/<your-username>/power-platform-portfolio.git
-git push -u origin main# power-platform-portfolio
+1) Emergency Rescue‑Planning Automation
+Power Apps • Power Automate • SharePoint • Word to PDF Generation • Image Embedding
+A mobile app used by emergency medics to perform onsite risk assessments and auto‑generate a professional rescue plan (Word → PDF) with dynamic images, stored in SharePoint and automatically emailed to clients and internal teams.
+Highlights
+
+Mobile, guided data capture (hazards, access routes, classifications, images)
+SharePoint as the single source of truth (lists + attachments)
+Power Automate maps all fields (incl. multi-choice) to a Word template, converts to PDF, and distributes via email
+Full audit trail and standardised report format
